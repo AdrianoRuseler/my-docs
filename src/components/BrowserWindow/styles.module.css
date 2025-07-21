@@ -1,0 +1,80 @@
+.browserWindow {
+  border-radius: var(--ifm-spacing-s);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  overflow: hidden;
+  margin: var(--ifm-spacing-l) 0;
+  background-color: var(--ifm-background-color);
+  box-shadow: var(--ifm-shadow-md);
+}
+
+.browserWindowHeader {
+  background-color: var(--ifm-color-emphasis-100);
+  display: flex;
+  align-items: center;
+  padding: var(--ifm-spacing-s) var(--ifm-spacing-m);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.buttons {
+  display: flex;
+  gap: 6px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.red {
+  background: #f25f58;
+}
+
+.yellow {
+  background: #fbbe3c;
+}
+
+.green {
+  background: #58cb42;
+}
+
+.browserWindowAddressBar {
+  flex-grow: 1;
+  text-align: center;
+  color: var(--ifm-color-emphasis-600);
+  font-family: var(--ifm-font-family-monospace);
+  font-size: var(--ifm-font-size-sm);
+  margin: 0 var(--ifm-spacing-m);
+  padding: 4px var(--ifm-spacing-s);
+  border-radius: 6px;
+  background-color: var(--ifm-color-emphasis-0); /* Lighter background for address bar */
+  border: 1px solid var(--ifm-color-emphasis-200);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.browserWindowMenuIcon {
+  width: 20px; /* Adjust as needed */
+  height: 20px; /* Adjust as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.bar {
+  width: 12px;
+  height: 2px;
+  background-color: var(--ifm-color-emphasis-600);
+  margin-bottom: 3px;
+}
+
+.bar:last-child {
+  margin-bottom: 0;
+}
+
+.browserWindowBody {
+  padding: var(--ifm-spacing-m);
+}

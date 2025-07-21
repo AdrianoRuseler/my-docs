@@ -1,0 +1,69 @@
+---
+id: my-first-doc
+title: My First Doc
+slug: /my-first-doc
+---
+
+import BrowserWindow from '@site/src/components/BrowserWindow';
+
+# My First Docusaurus Document
+
+This is an example of using the custom `BrowserWindow` component.
+
+<BrowserWindow url="https://docusaurus.io" minHeight="300px">
+  <p>This is content inside the browser window.</p>
+  ```js
+  console.log('Hello from Docusaurus!');
+  ```
+  <p>You can put any Markdown or JSX here.</p>
+</BrowserWindow>
+
+Another section of your document.
+
+
+
+<details>
+  <summary>Alternative installation commands</summary>
+
+You can also initialize a new project using your preferred project manager:
+
+```bash npm2yarn
+npm init docusaurus
+```
+
+</details>
+
+
+Assuming you chose the classic template and named your site `my-website`, you will see the following files generated under a new directory `my-website/`:
+
+```bash
+my-website
+├── blog
+│   ├── 2019-05-28-hola.md
+│   ├── 2019-05-29-hello-world.md
+│   └── 2020-05-30-welcome.md
+├── docs
+│   ├── doc1.md
+│   ├── doc2.md
+│   ├── doc3.md
+│   └── mdx.md
+├── src
+│   ├── css
+│   │   └── custom.css
+│   └── pages
+│       ├── styles.module.css
+│       └── index.js
+├── static
+│   └── img
+├── docusaurus.config.js
+├── package.json
+├── README.md
+├── sidebars.js
+└── yarn.lock
+```
+
+:::tip
+
+Use new unreleased features of Docusaurus with the [`@canary` npm dist tag](/community/canary)
+
+:::
