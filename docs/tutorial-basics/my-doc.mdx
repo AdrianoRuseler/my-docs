@@ -1,0 +1,33 @@
+---
+id: youtube-embed
+title: Embedding YouTube
+slug: /youtube-embed
+---
+
+import YouTubeEmbed from '@site/src/components/YouTubeEmbed';
+
+# Embedding a YouTube Video
+
+Here's how you can embed a YouTube video directly:
+
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
+
+This video explains Docusaurus basics.
+
+# Using a Custom YouTube Component
+
+This video is embedded using our custom React component:
+
+<YouTubeEmbed videoId="dQw4w9WgXcQ" title="My Awesome Docusaurus Video" width="800" height="450" />
+
+You can easily change the video ID and other properties.
+
+<YouTubeEmbed videoId="dQw4w9WgXcQ" />
