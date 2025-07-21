@@ -1,80 +1,87 @@
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
 .browserWindow {
-  border-radius: var(--ifm-spacing-s);
-  border: 1px solid var(--ifm-color-emphasis-200);
-  overflow: hidden;
-  margin: var(--ifm-spacing-l) 0;
-  background-color: var(--ifm-background-color);
-  box-shadow: var(--ifm-shadow-md);
+  border: 3px solid var(--ifm-color-emphasis-200);
+  border-radius: var(--ifm-global-radius);
+  box-shadow: var(--ifm-global-shadow-lw);
+  margin-bottom: var(--ifm-leading);
 }
 
 .browserWindowHeader {
-  background-color: var(--ifm-color-emphasis-100);
-  display: flex;
   align-items: center;
-  padding: var(--ifm-spacing-s) var(--ifm-spacing-m);
-  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  background: var(--ifm-color-emphasis-200);
+  display: flex;
+  padding: 0.5rem 1rem;
+}
+
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
 }
 
 .buttons {
-  display: flex;
-  gap: 6px;
+  white-space: nowrap;
+}
+
+.right {
+  align-self: center;
+  width: 10%;
+}
+
+[data-theme='light'] {
+  --ifm-background-color: #fff;
+}
+
+.browserWindowAddressBar {
+  flex: 1 0;
+  margin: 0 1rem 0 0.5rem;
+  border-radius: 12.5px;
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-color-gray-800);
+  padding: 5px 15px;
+  font: 400 13px Arial, sans-serif;
+  user-select: none;
+}
+
+[data-theme='dark'] .browserWindowAddressBar {
+  color: var(--ifm-color-gray-300);
 }
 
 .dot {
-  width: 12px;
+  margin-right: 6px;
+  margin-top: 4px;
   height: 12px;
+  width: 12px;
+  background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
 }
 
-.red {
-  background: #f25f58;
-}
-
-.yellow {
-  background: #fbbe3c;
-}
-
-.green {
-  background: #58cb42;
-}
-
-.browserWindowAddressBar {
-  flex-grow: 1;
-  text-align: center;
-  color: var(--ifm-color-emphasis-600);
-  font-family: var(--ifm-font-family-monospace);
-  font-size: var(--ifm-font-size-sm);
-  margin: 0 var(--ifm-spacing-m);
-  padding: 4px var(--ifm-spacing-s);
-  border-radius: 6px;
-  background-color: var(--ifm-color-emphasis-0); /* Lighter background for address bar */
-  border: 1px solid var(--ifm-color-emphasis-200);
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
 .browserWindowMenuIcon {
-  width: 20px; /* Adjust as needed */
-  height: 20px; /* Adjust as needed */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
+  margin-left: auto;
 }
 
 .bar {
-  width: 12px;
-  height: 2px;
-  background-color: var(--ifm-color-emphasis-600);
-  margin-bottom: 3px;
-}
-
-.bar:last-child {
-  margin-bottom: 0;
+  width: 17px;
+  height: 3px;
+  background-color: #aaa;
+  margin: 3px 0;
+  display: block;
 }
 
 .browserWindowBody {
-  padding: var(--ifm-spacing-m);
+  background-color: var(--ifm-background-color);
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+  padding: 1rem;
+}
+
+.browserWindowBody > *:last-child {
+  margin-bottom: 0;
 }

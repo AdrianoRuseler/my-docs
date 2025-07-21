@@ -7,9 +7,9 @@ function BrowserWindow({ children, minHeight, url = 'http://localhost:3000' }) {
     <div className={styles.browserWindow} style={{ minHeight }}>
       <div className={styles.browserWindowHeader}>
         <div className={styles.buttons}>
-          <span className={clsx(styles.dot, styles.red)} />
-          <span className={clsx(styles.dot, styles.yellow)} />
-          <span className={clsx(styles.dot, styles.green)} />
+          <span className={styles.dot} style={{background: '#f25f58'}} />
+          <span className={styles.dot} style={{background: '#fbbe3c'}} />
+          <span className={styles.dot} style={{background: '#58cb42'}} />
         </div>
         <div className={styles.browserWindowAddressBar}>{url}</div>
         <div className={styles.browserWindowMenuIcon}>
