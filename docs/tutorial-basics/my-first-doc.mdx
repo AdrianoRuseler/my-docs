@@ -6,11 +6,14 @@ slug: /my-first-doc
 
 import BrowserWindow from '@site/src/components/BrowserWindow';
 
+import BashTerminal from '@site/src/components/BashTerminal';
+
+
 # My First Docusaurus Document
 
 This is an example of using the custom `BrowserWindow` component.
 
-<BrowserWindow url="https://docusaurus.io" minHeight="300px">
+<BrowserWindow url="https://docusaurus.io" minHeight="200px">
   <p>This is content inside the browser window.</p>
   ```js
   console.log('Hello from Docusaurus!');
@@ -64,6 +67,35 @@ my-website
 
 :::tip
 
-Use new unreleased features of Docusaurus with the [`@canary` npm dist tag](/community/canary)
+Use new unreleased features of Docusaurus with the `@canary` npm dist tag
 
 :::
+
+
+
+```shell
+npx create-expo-app@latest
+```
+
+## Direct Component Usage
+
+You can also use the component directly with inline props:
+
+<BashTerminal
+  title="my-terminal"
+  prompt="developer@localhost:~/docs$ "
+  height="250px"
+  initialCommands={[
+    { command: 'npm start', output: 'Starting the development server...\nLocal: http://localhost:3000' }
+  ]}
+/>
+
+This is an example of using the custom `BrowserWindow` component.
+
+<BrowserWindow url="https://docusaurus.io" minHeight="200px">
+  <p>This is content inside the browser window.</p>
+  ```js
+  console.log('Hello from Docusaurus!');
+  ```
+  <p>You can put any Markdown or JSX here.</p>
+</BrowserWindow>
