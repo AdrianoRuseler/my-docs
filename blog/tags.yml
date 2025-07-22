@@ -17,3 +17,8 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+STM32:
+  label: STM32
+  permalink: /STM32
+  description: STM32 tag description
