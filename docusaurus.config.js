@@ -33,6 +33,7 @@ const config = {
   organizationName: 'adrianoruseler', // Usually your GitHub org/user name.
   projectName: 'my-docs', // Usually your repo name.
   deploymentBranch: 'gh-pages', // The branch that GitHub pages will deploy from.
+  trailingSlash: false,   // When deploying to GitHub Pages, it is better to use an explicit "trailingSlash" site config.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
