@@ -57,6 +57,27 @@
         <category label="Docusaurus" term="Docusaurus"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[titulo do projeto aqui!]]></title>
+        <id>https://adrianoruseler.github.io/my-docs/blog/github-org-name</id>
+        <link href="https://adrianoruseler.github.io/my-docs/blog/github-org-name"/>
+        <updated>2021-02-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is my first post on Docusaurus.]]></summary>
+        <content type="html"><![CDATA[<p>A slug is the part of a URL that identifies a particular page on a website!</p>
+<p>Congratulations, you have made your first post!</p>
+<p>Feel free to play around and edit this post as much as you like.</p>]]></content>
+        <author>
+            <name>Joel Marcey</name>
+            <email>jimarcey@gmail.com</email>
+            <uri>https://github.com/JoelMarcey</uri>
+        </author>
+        <author>
+            <name>Sébastien Lorber</name>
+            <email>sebastienlorber@gmail.com</email>
+            <uri>https://sebastienlorber.com</uri>
+        </author>
+        <category label="STM32" term="STM32"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Long Blog Post]]></title>
         <id>https://adrianoruseler.github.io/my-docs/blog/long-blog-post</id>
         <link href="https://adrianoruseler.github.io/my-docs/blog/long-blog-post"/>
