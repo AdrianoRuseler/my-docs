@@ -1,6 +1,6 @@
 ---
 id: multiple-blogs
-title: Create Multiple Blogs
+title: Create Multiple Blogs Instances 
 slug: /multiple-blogs
 ---
 
@@ -72,7 +72,7 @@ const config = {
       }),
     ],
   ],
-
+  // highlight-start
   plugins: [
     [
       '@docusaurus/plugin-content-blog',
@@ -102,6 +102,7 @@ const config = {
       },
     ],
   ],
+  // highlight-end
   // ... rest of your config
 };
 

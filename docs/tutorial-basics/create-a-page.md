@@ -41,3 +41,37 @@ This is a Markdown page
 ```
 
 A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
+
+
+## Create your first Markdown Page with Front Matter
+
+```mdx title="src/pages/my-markdown-page-front-matter.md"
+---
+id: learn-more-about-docusaurus
+title: Learn More About Docusaurus
+description: Explore advanced features and customization options in Docusaurus.
+slug: /advanced-concepts/learn-more
+keywords: [docusaurus, features, customization, guide, documentation]
+image: https://docusaurus.io/img/docusaurus-social-card.jpg
+format: mdx
+unlisted: false
+hide_title: false
+---
+
+# Learn More About Docusaurus
+
+Welcome to the advanced section! This document dives deeper into various aspects of Docusaurus, from theming to plugin development.
+
+## Theming
+
+Docusaurus offers robust theming capabilities...
+
+## Plugins
+
+Extend Docusaurus's functionality with custom plugins...
+
+## Deployment
+
+Learn how to deploy your Docusaurus site...
+
+```

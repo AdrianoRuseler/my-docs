@@ -116,7 +116,7 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          { to: '/blog', label: 'Projects', position: 'left' },
+          { to: '/blog', label: 'Blogs', position: 'left' },
           {
             href: 'https://github.com/adrianoruseler/my-docs/',
             label: 'GitHub',
