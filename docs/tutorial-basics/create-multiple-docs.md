@@ -1,3 +1,10 @@
+---
+id: multiple-docs
+title: Create Multiple Docs
+slug: /multiple-docs
+---
+
+
 Here's how to add multiple docs folders in Docusaurus, allowing you to organize your documentation into distinct sections:
 
 Docusaurus uses the concept of "presets" and "plugins" to manage content. For multiple docs folders, you'll primarily be working with the `@docusaurus/preset-classic` and its `docs` options, or by adding multiple instances of the `@docusaurus/plugin-content-docs` plugin.

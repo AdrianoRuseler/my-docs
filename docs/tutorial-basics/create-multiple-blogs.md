@@ -1,3 +1,10 @@
+---
+id: multiple-blogs
+title: Create Multiple Blogs
+slug: /multiple-blogs
+---
+
+
 Just like with multiple docs folders, Docusaurus allows you to create multiple blogs by leveraging multiple instances of the `@docusaurus/plugin-content-blog` plugin. This is incredibly useful if you want to have distinct blog sections on your site, for example:
 
   * A main company blog
