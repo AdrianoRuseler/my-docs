@@ -9,3 +9,30 @@ $$
 I = \int_0^{2\pi} \sin(x)\,dx \tag{1}
 $$
 
+
+$$
+f(x) = \int_{-\infty}^\infty
+    \hat f(\xi)\,e^{2 \pi i \xi x}
+    \,d\xi
+$$
+
+
+### Math notation
+
+Math expressions can be added using the [KaTeX notation](https://khan.github.io/KaTeX/). To add an inline equation, wrap the expression in `$EXPRESSION$`, eg. `$\sqrt{3x-1}+(1+x)^2$`. $\sqrt{3x-1}+(1+x)^2$ To create an expression block, wrap it as follow:
+
+	$$
+	EXPRESSION
+	$$
+
+For example:
+
+	$$
+	f(x) = \int_{-\infty}^\infty
+		\hat f(\xi)\,e^{2 \pi i \xi x}
+		\,d\xi
+	$$
+
+Here is an example with the Markdown and rendered result side by side:
+
+
