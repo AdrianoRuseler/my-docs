@@ -39,14 +39,15 @@ my-website/.vscode/extensions.json
 ```json
 {
   "recommendations": [
+    "streetsidesoftware.code-spell-checker",
     "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode",
-    "yzhang.markdown-all-in-one",
-    "unifiedjs.vscode-mdx",    
     "tomasdahlqvist.markdown-admonitions",
+    "yzhang.markdown-all-in-one",
+    "bierner.markdown-footnotes",
     "bierner.markdown-mermaid",
-    "burkeholland.simple-react-snippets",
-    "pkief.material-icon-theme"
+    "bierner.markdown-yaml-preamble",
+    "pkief.material-icon-theme",
+    "esbenp.prettier-vscode"
     // Add other relevant extensions
   ]
 }
