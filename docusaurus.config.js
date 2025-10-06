@@ -37,6 +37,7 @@ const config = {
 
   onBrokenLinks: "throw",
   markdown: {
+    mermaid: true,
     hooks: {
       onBrokenMarkdownLinks: "warn", // or 'throw'
     },
@@ -50,9 +51,6 @@ const config = {
     locales: ["en"],
   },
 
-  markdown: {
-    mermaid: true,
-  },
   themes: ["@docusaurus/theme-mermaid"],
 
   // Include the KaTeX CSS in your config under stylesheets:
