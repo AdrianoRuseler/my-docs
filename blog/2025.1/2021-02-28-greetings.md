@@ -24,6 +24,6 @@ A slug is the part of a URL that identifies a particular page on a website!
 
 Congratulations, you have made your first post!
 
-<!-- truncate -->
+{/* truncate */}
 
 Feel free to play around and edit this post as much as you like.
